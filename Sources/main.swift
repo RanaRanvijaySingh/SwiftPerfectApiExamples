@@ -6,6 +6,8 @@ let server = HTTPServer()
 
 server.addRoutes(GetSimpleRequests.simpleGetRequest())
 
+server.addRoutes(GetSimpleRequests.getRequestWithParam())
+
 server.serverPort = 8181
 do {
     // Launch the HTTP server.
