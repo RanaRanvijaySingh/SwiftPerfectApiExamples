@@ -34,7 +34,7 @@ public class GetSimpleRequests {
 
     private static func requestWithParam(request: HTTPRequest) -> String {
       let queryParam = request.queryParams
-      var query: String = ""
+      var query: String = Constants.StringValues.BLANK
       for (_, value) in queryParam {
           query.append("\(value) ");
       }
