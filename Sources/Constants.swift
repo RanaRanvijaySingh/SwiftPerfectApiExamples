@@ -12,6 +12,7 @@ public class Constants {
         public static let SIMPLE_GET_REQUEST = "/getRequest"
         public static let GET_REQUEST_WITH_PARAMS = "/simpleGetRequestWithParam"
         public static let SIMPLE_POST_REQUEST = "/simplePostRequest"
+        public static let UPLOAD_FILE = "/uploadFile"
     }
     public class ContentTypes {
         public static let TEXT_HTML = "text/html"

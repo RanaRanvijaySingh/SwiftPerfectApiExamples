@@ -7,6 +7,7 @@ let server = HTTPServer()
 server.addRoutes(GetSimpleRequests.simpleGetRequest())
 server.addRoutes(GetSimpleRequests.getRequestWithParam())
 server.addRoutes(PostRequests.simplePostRequest())
+server.addRoutes(FileUploadRequest.uploadFileRequest())
 
 server.serverPort = 8181
 do {
